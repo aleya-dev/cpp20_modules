@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0.20250217-g9290a02 FATAL_ERROR)
 
-if (NOT MSVC)
+if (NOT WIN32)
 	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
 endif ()
 

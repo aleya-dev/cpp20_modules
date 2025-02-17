@@ -10,7 +10,6 @@ target_sources(LibraryTest
         FILE_SET CXX_MODULES FILES
             library.ixx
             library_impl.cpp
-			sdl.ixx
 )
 
 if (MSVC)
