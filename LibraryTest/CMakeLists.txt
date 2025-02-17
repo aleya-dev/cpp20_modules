@@ -25,5 +25,5 @@ endif ()
 
 target_link_libraries(LibraryTest
 	PRIVATE
-		${__SDL_LIB_PATH}/SDL3${__SDL_LIB_EXTENSION}
+		${__SDL_LIB_PATH}SDL3${__SDL_LIB_EXTENSION}
 )
