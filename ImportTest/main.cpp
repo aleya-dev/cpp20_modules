@@ -2,6 +2,8 @@ import std;
 import LibraryTest;
 
 int main() {
-    std::cout << "Hello, World! " << Calculator::compute(6, 10, Operation::Add) << std::endl;
+    Window::Open();
+
+    std::cout << "Hello, World! " << std::endl;
     return 0;
 }
